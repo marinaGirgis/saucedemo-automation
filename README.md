@@ -24,7 +24,7 @@ Run all tests in all browsers (15 tests total).
 - " npx playwright test --ui "	
 Run tests interactively.
 
--" npx playwright test tests/login.spec.ts "	
+- " npx playwright test tests/login.spec.ts "	
 Run only login tests.
 
  - " npx playwright test tests/remove-from-cart.spec.ts "
