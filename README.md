@@ -6,10 +6,12 @@ Automated end-to-end tests for Saucedemo using Playwright and TypeScript, built 
 
 1- Install Node.js and npm.
 
-2- Download or extract the project ZIP.
+2- Clone this repository:
+git clone https://github.com/marinaGirgis/saucedemo-automation.git
 
-3- Open a terminal in the project root directory and run: 
-   npm install
+3- Navigate to the project folder and install dependencies:
+cd saucedemo-automation
+npm install
 
 
 The tests are located in the `tests/e2e/` directory.
