@@ -18,19 +18,19 @@ The tests are located in the `tests/e2e/` directory.
 --> Running Tests
 Command	Description:
 
-- npx playwright test	
+- " npx playwright test "
 Run all tests in all browsers (15 tests total).
 
-- npx playwright test --ui	
+- " npx playwright test --ui "	
 Run tests interactively.
 
-- npx playwright test tests/login.spec.ts	
+-" npx playwright test tests/login.spec.ts "	
 Run only login tests.
 
- - npx playwright test tests/remove-from-cart.spec.ts
-	Run optional remove-from-cart test.
+ - " npx playwright test tests/remove-from-cart.spec.ts "
+   Run optional remove-from-cart test.
 
-- npx playwright test --project=chromium	
+- " npx playwright test --project=chromium "
 Run all tests in Chrome only.
 
 --> Test Scenarios
